@@ -22,7 +22,7 @@ const Header = () => {
                         <li><Link className="hover:underline" to="/">Home</Link></li>
                         <li><Link className="hover:underline" to="/about">About</Link></li>
                         <li><Link className="hover:underline" to="/contact">Contact</Link></li>
-                        <li><Link className="hover:underline" to="/products">Gallery</Link></li>
+                        <li><Link className="hover:underline" to="/gallery">Gallery</Link></li>
                     </ul>
                 </nav>
             </div>
