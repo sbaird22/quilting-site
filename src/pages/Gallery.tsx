@@ -14,14 +14,14 @@ const traditionalQuilts = [
 
 const Gallery = () => {
     return (
-        <div className="w-full min-h-screen bg-purple-700 p-10 text-teal-300">
+        <div className="font-papyrus w-full min-h-screen bg-purple-950 p-10 text-teal-300">
                 <h2 className="text-4xl font-bold text-center mb-8">Our Quilt Collections</h2>
             <div className="grid md:grid-cols-2 gap-8">
                     {/* Traditional Quilts */}
                 <div className="bg-teal-300 p-6 rounded-lg shadow-lg text-black">
                     <h3 className="text-2xl font-semibold text-teal-700">Traditional Quilts</h3>
                     <p className="text-gray-700">
-                        Traditional quilts are known for their intricate patterns and vintage charm. Often made with classic fabrics, they are a staple in heritage quilting.
+                        Traditional quilts are known for their intricate patterns and vintage charm. Often made with classic fabrics, they are a staple in heritage quilting. Used more like a blanket.
                     </p>
                     <ImageCarousel images={traditionalQuilts} />
                 </div>
